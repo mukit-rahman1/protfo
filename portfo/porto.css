@@ -21,51 +21,56 @@ body {
 
 .text-node { background-clip: text !important; -webkit-background-clip: text !important; }
 
-/* Rectangle top*/
-.rectangle-f34f5643c1f3 > svg .fills path {
-  fill: none !important;
-  stroke: black;
-  stroke-width: 2px;/* 50% transparent gray */
+/* Rectangle */
+.rectangle-f357850a3188 {
+  position: absolute;
+  left: 1344px;
+  top: 0px;
+  width: 240px;
+  height: 832px;
+  background: #C1C1C1;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: inset 4px 4px 4px -2px rgba(255, 255, 255, 0.2), inset 4px 0px 1px -2px rgba(255, 255, 255, 0.2);
+}
+
+/* Rectangle */
+.rectangle-f35763d4681e {
+  position: absolute;
+  left: -7px;
+  top: 0px;
+  width: 352px;
+  height: 832px;
+  background: #C1C1C1;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: -4px 0px 4px -3px rgba(255, 255, 255, 0.2), inset -4px 0px 1px -3px rgba(255, 255, 255, 0.2);
+}
+
+/* Rectangle */
+.rectangle-f34f68bd6aa7 > svg {
   position: absolute;
   top: 0px;
   left: 0px;
-  transform: translate(0px,5.684341886080802e-14px);
-  background: none;
+  transform: translate(-36px,-24px);
+}
+.rectangle-f34f68bd6aa7 {
+  position: absolute;
+  left: 346px;
+  top: 383px;
+  width: 997px;
+  height: 449px;
+}
+
+/* Rectangle */
+.rectangle-f34f5643c1f3 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,-5.684341886080802e-14px);
 }
 .rectangle-f34f5643c1f3 {
   position: absolute;
-  left: 352px;
-  top: 0px;
-  width: 726px;
-  height: 448px;
-  background: 
-    radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.8)), 
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  
-  background-repeat: no-repeat;
-  background-size: cover; /* or contain, or any preferred sizing */
-}
-
-/* Rectangle bottom*/
-.rectangle-f34f68bd6aa7 > svg .fills path{
-  fill: none !important;
-  stroke: black;
-  stroke-width: 2px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: translate(0px,0px);
-}
-.rectangle-f34f68bd6aa7 {
-  background: 
-    radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.8)), 
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  
-  background-repeat: no-repeat;
-  background-size: cover; /* or contain, or any preferred sizing */
-  position: absolute;
-  left: 352px;
-  top: 394px;
-  width: 726px;
-  height: 440px;
+  left: 345px;
+  top: -21px;
+  width: 998px;
+  height: 458px;
 }
