@@ -1,57 +1,71 @@
-tiangle {
-    position: absolute; 
-    top: 456px; 
-    left: 608px; 
-    width: 0; 
-    height: 0;
-    border-left: 115px solid transparent;
-    border-right: 115px solid transparent;
-    border-bottom: 200px solid #14181f;
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
 }
 
-/* Triangle 1 */
-.triangle_b {
-    position: absolute; 
-    top: 458px; 
-    left: 618px; 
-    width: 0; 
-    height: 0; 
-    background: rgb(255, 255, 255); /* neutral-800 */
-    border-left: 220px solid transparent;
-    border-bottom: 200px solid #14181f;
-    border-radius: 0px; 
-  }
-/* Rectangle 2 */
-/* Rectangle 2 */
-.rectangle_l_b {
-    position: absolute; 
-    top: 456px; 
-    left: 838px; 
-    width: 533px; 
-    height: 594px; 
-    background: #1D2128FF; /* neutral-800 */
-    border-radius: 0px 2px 2px 2px; /* border-tr-none border-br-none border-bl-none */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
 
-  }
-  /* Rectangle 2 */
-.rectangle_2_l_b {
-    position: absolute; 
-    top: 594px; 
-    left: 216px; 
-    width: 622px; 
-    height: 456px; 
-    background: #171A1FFF; /* neutral-900 */
-    border-radius: 0px 2px 2px 2px; /* border-tr-none border-br-none border-bl-none */
-  }
+* {
+  box-sizing: border-box;
+}
 
-  .triangle_t {
-    position: absolute; 
-    top: 456px; 
-    left: 623px; 
-    width: 0; 
-    height: 0; 
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
 
-    border-right: 220px solid transparent;
-    border-top: 200px solid #14181f;
-    border-radius: 0px; 
-  }
+/* Rectangle top*/
+.rectangle-f34f5643c1f3 > svg .fills path {
+  fill: none !important;
+  stroke: black;
+  stroke-width: 2px;/* 50% transparent gray */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,5.684341886080802e-14px);
+  background: none;
+}
+.rectangle-f34f5643c1f3 {
+  position: absolute;
+  left: 352px;
+  top: 0px;
+  width: 726px;
+  height: 448px;
+  background: 
+    radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.8)), 
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  
+  background-repeat: no-repeat;
+  background-size: cover; /* or contain, or any preferred sizing */
+}
+
+/* Rectangle bottom*/
+.rectangle-f34f68bd6aa7 > svg .fills path{
+  fill: none !important;
+  stroke: black;
+  stroke-width: 2px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.rectangle-f34f68bd6aa7 {
+  background: 
+    radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.8)), 
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  
+  background-repeat: no-repeat;
+  background-size: cover; /* or contain, or any preferred sizing */
+  position: absolute;
+  left: 352px;
+  top: 394px;
+  width: 726px;
+  height: 440px;
+}
