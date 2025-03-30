@@ -22,55 +22,16 @@ body {
 .text-node { background-clip: text !important; -webkit-background-clip: text !important; }
 
 /* Rectangle */
-.rectangle-f357850a3188 {
-  position: absolute;
-  left: 1344px;
-  top: 0px;
-  width: 240px;
-  height: 832px;
-  background: #C1C1C1;
-  border-radius: 0px 0px 0px 0px;
-  box-shadow: inset 4px 4px 4px -2px rgba(255, 255, 255, 0.2), inset 4px 0px 1px -2px rgba(255, 255, 255, 0.2);
-}
-
-/* Rectangle */
-.rectangle-f35763d4681e {
-  position: absolute;
-  left: -7px;
-  top: 0px;
-  width: 352px;
-  height: 832px;
-  background: #C1C1C1;
-  border-radius: 0px 0px 0px 0px;
-  box-shadow: -4px 0px 4px -3px rgba(255, 255, 255, 0.2), inset -4px 0px 1px -3px rgba(255, 255, 255, 0.2);
-}
-
-/* Rectangle */
-.rectangle-f34f68bd6aa7 > svg {
+.rectangle-f46c31e0e1ba > svg {
   position: absolute;
   top: 0px;
   left: 0px;
   transform: translate(-36px,-24px);
 }
-.rectangle-f34f68bd6aa7 {
+.rectangle-f46c31e0e1ba {
   position: absolute;
-  left: 346px;
-  top: 383px;
-  width: 997px;
-  height: 449px;
-}
-
-/* Rectangle */
-.rectangle-f34f5643c1f3 > svg {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: translate(0px,-5.684341886080802e-14px);
-}
-.rectangle-f34f5643c1f3 {
-  position: absolute;
-  left: 345px;
-  top: -21px;
-  width: 998px;
-  height: 458px;
+  left: 537px;
+  bottom: 0%;
+  width: 1215px;
+  height: 10vh;
 }
