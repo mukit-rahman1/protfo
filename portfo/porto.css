@@ -1,37 +1,72 @@
-
-
-html, body {
-  margin: 0;
-  min-height: 100%;
-  min-width: 100%;
-  padding: 0;
-}
-
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
   min-height: 100vh;
+
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .text-node { background-clip: text !important; -webkit-background-clip: text !important; }
 
-/* Rectangle */
-.rectangle-f46c31e0e1ba > svg {
+
+/* cover top*/
+.cover-t {
+  clip-path: polygon(40% 0, 63% 0, 100% 0, 100% 80%, 63% 80%, 40% 100%, 0 100%, 0 0);  
+  background-color: #c1c1c1;
+  width: 57vw;
+  height: 57.2vh;
   position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: translate(-36px,-24px);
+  filter: grayscale(1);
+  top: 0%;
+  left: 25.1%;
+  z-index: 0;
+  box-shadow: 
+  inset 4px 0 1px -2px var(--highlight),
+  inset 4px 0 4px -2px var(--highlight),
+  inset -4px 0px 1px -3px var(--shadow),
+  inset -4px 0px 4px -3px var(--shadow);
+
+ background: radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.3)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
 }
-.rectangle-f46c31e0e1ba {
+
+
+/* cover bottom*/
+.cover-b {
+  clip-path: polygon(40% 20%, 63% 0, 100% 0, 100% 100%, 80% 100%, 0 100%, 0% 80%, 0 20%);
+  background-color: #c1c1c1;
+  width: 57vw;
+  height: 57.5vh;
   position: absolute;
-  left: 537px;
-  bottom: 0%;
-  width: 1215px;
-  height: 10vh;
+  top: 45.8%;
+  filter: grayscale(1);
+  left: 25.1%;
+  z-index: 0;
+  box-shadow: 
+  inset 4px 0 1px -2px var(--highlight),
+  inset 4px 0 4px -2px var(--highlight),
+  inset -4px 0px 1px -3px var(--shadow),
+  inset -4px 0px 4px -3px var(--shadow);
+background: radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.3)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
 }
+
+.tri-wrapper {
+  position: absolute;
+  bottom: 43.5%;
+  left: 48.1%;
+  width: 28.8vw;
+  height: 30vh;
+  filter: url(#round); /* Apply the SVG gooey filter here */
+  z-index: 1;
+}
+
+.tri-1 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  clip-path: polygon(35% 0%, 100% 0, 100% 14%, 84% 28%, 0 28%, 0 28%);
+}
+
