@@ -28,7 +28,7 @@ body {
   inset -4px 0px 1px -3px var(--shadow),
   inset -4px 0px 4px -3px var(--shadow);
 
- background: radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.3)),
+ background: radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.1)),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
 }
 
@@ -49,24 +49,156 @@ body {
   inset 4px 0 4px -2px var(--highlight),
   inset -4px 0px 1px -3px var(--shadow),
   inset -4px 0px 4px -3px var(--shadow);
-background: radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.3)),
+background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
 }
 
-.tri-wrapper {
+.tri-1 {
+  clip-path: polygon(96% 0, 100% 4%, 100% 14%, 10% 14%, 8% 10%, 22% 0);
+  background-color: #b1b2b5;
+  width: 26vw;
+  height: 35vh;
   position: absolute;
-  bottom: 43.5%;
-  left: 48.1%;
-  width: 28.8vw;
-  height: 30vh;
-  filter: url(#round); /* Apply the SVG gooey filter here */
+  bottom: 34.5%;
+  left: 53.1%;
   z-index: 1;
 }
 
-.tri-1 {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  clip-path: polygon(35% 0%, 100% 0, 100% 14%, 84% 28%, 0 28%, 0 28%);
+.tri-2{
+  clip-path: polygon(100% 0, 100% 40%, 89% 54%, 18% 54%, 16% 51%, 53% 0);
+  background-color: #b1b2b5;
+  width: 38vw;
+  height: 43vh;
+  position: absolute;
+  bottom: 36%;
+  left: 60.9%;
+  z-index: 1;
+  transform: translate(-50%, 50%);
 }
 
+.tri-3{
+  clip-path: polygon(93% 0, 96% 7%, 45% 95%, 13% 95%, 0 75%, 0 0);
+  background-color: #b1b2b5;
+  width: 27vw;
+  height: 25vh;
+  position: absolute;
+  bottom: 30%;
+  left: 8%;
+  
+  z-index: 1;
+}
+.hori-line{
+  background-color: #b1b2b5;
+  width: 57vw;
+  height: 1.2vh;
+  left: 0%;
+  bottom: 19%;
+  position: absolute;
+  z-index: 1;
+}
+
+.dashes-container-b{
+  z-index: 0;
+  width: 10vw;
+  height: 4vh;
+  position: absolute;
+  top: 73.8%;
+  left: 73.1%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.dash-1{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: -12.2%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-2{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 0%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-3{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 12.2%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-4{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 24.4%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-5{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 36.6%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-6{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 48.8%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-7{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 61%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-8{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 73.2%;
+  position: absolute;
+  z-index: 1;
+}
+.dash-9{
+  clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
+  background-color: #b1b2b5;
+  width: 4vw;
+  height: 3.7vh;
+  left: 85.4%;
+  position: absolute;
+  z-index: 1;
+}
+
+.dashes-container-t{
+  z-index: 0;
+  width: 10vw;
+  height: 4vh;
+  position: absolute;
+  top: 22.8%;
+  left: 27.1%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+}
+  
+  
