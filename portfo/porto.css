@@ -59,8 +59,8 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   width: 26vw;
   height: 35vh;
   position: absolute;
-  bottom: 34.5%;
-  left: 53.1%;
+  bottom: 33.5%;
+  left: 50.1%;
   z-index: 1;
 }
 
@@ -71,7 +71,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   height: 43vh;
   position: absolute;
   bottom: 36%;
-  left: 60.9%;
+  left: 62.9%;
   z-index: 1;
   transform: translate(-50%, 50%);
 }
@@ -83,7 +83,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   height: 25vh;
   position: absolute;
   bottom: 30%;
-  left: 8%;
+  left: 3.8%;
   
   z-index: 1;
 }
@@ -199,6 +199,31 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   transform: translate(-50%, -50%);
   overflow: hidden;
 }
+
+.tri-1-t{
+  clip-path: polygon(96% 0, 100% 4%, 100% 14%, 10% 14%, 8% 10%, 22% 0);
+  background-color: #b1b2b5;
+  width: 26vw;
+  height: 35vh;
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  transform: rotate(180deg);
+  left: 3.8%;
+  z-index: 1;
+}
+
+.tri-2-t{
+  clip-path: polygon(75% 0, 84% 15%, 84% 54%, 18% 54%, 16% 51%, 59% 0);
+  position: absolute;
+  top: 70%;
+
+  transform: translateY(-50%);
+  left: 39.9%;
+  z-index: 1;
+  background-color: #b1b2b5;
+  width: 38vw;
+  height: 43vh;
 }
   
   
