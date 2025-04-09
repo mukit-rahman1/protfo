@@ -71,7 +71,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   height: 43vh;
   position: absolute;
   bottom: 36%;
-  left: 62.9%;
+  left: 60%;
   z-index: 1;
   transform: translate(-50%, 50%);
 }
@@ -80,17 +80,18 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   clip-path: polygon(93% 0, 96% 7%, 45% 95%, 13% 95%, 0 75%, 0 0);
   background-color: #b1b2b5;
   width: 27vw;
+  transform: translate(-50%, 50%);
   height: 25vh;
   position: absolute;
-  bottom: 30%;
-  left: 3.8%;
+  bottom: 52%;
+  left: 29%;
   
   z-index: 1;
 }
 .hori-line{
   background-color: #b1b2b5;
   width: 57vw;
-  height: 1.2vh;
+  height: 1vh;
   left: 0%;
   bottom: 19%;
   position: absolute;
@@ -194,7 +195,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   width: 10vw;
   height: 4vh;
   position: absolute;
-  top: 22.8%;
+  top: 25.8%;
   left: 27.1%;
   transform: translate(-50%, -50%);
   overflow: hidden;
@@ -218,12 +219,82 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   position: absolute;
   top: 70%;
 
-  transform: translateY(-50%);
-  left: 39.9%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 70%;
   z-index: 1;
   background-color: #b1b2b5;
   width: 38vw;
   height: 43vh;
 }
+
+.tri-3-t{
+  clip-path: polygon(100% 0, 50% 34%, 47% 31%, 47% 4%, 51% 0);
+  background-color: #b1b2b5;
   
+
+  width: 36vw;
+  height: 69vh;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+  top: 92.5%;
+
+  left: 9%;
+  z-index: 1;
+}
+  
+.hori-line-t{
+  background-color: #b1b2b5;
+  width: 57vw;
+  height: 1vh;
+  left: 0%;
+  top: 18%;
+  position: absolute;
+  z-index: 1;
+}
+
+.left-cover{
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 50.1vw;
+  height: 106.5vh;  
+
+}
+
+.right-cover{
+  transform: translateY(-50%);
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  width: 17.9vw;
+  height: 106.5vh;  
+
+}
+  
+.outline-button{
+  background-color: #b1b2b5;
+  width: 5vw;
+  transform: translate(-50%, -50%);
+  height: 5vw;
+  position: absolute;
+  top: 24%;
+  left: 88%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.button{
+  background-color: #6f81f7;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
   
