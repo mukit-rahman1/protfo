@@ -28,8 +28,6 @@ body {
   inset -4px 0px 1px -3px var(--shadow),
   inset -4px 0px 4px -3px var(--shadow);
 
- background: radial-gradient(circle at 0% 0%, transparent 24%, rgba(0, 0, 0, 0.1)),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
 }
 
 
@@ -45,18 +43,17 @@ body {
   filter: grayscale(1);
   left: 25.1%;
   z-index: 0;
+
   box-shadow: 
   inset 4px 0 1px -2px var(--highlight),
   inset 4px 0 4px -2px var(--highlight),
   inset -4px 0px 1px -3px var(--shadow),
   inset -4px 0px 4px -3px var(--shadow);
-background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
 }
 
 .tri-1 {
   clip-path: polygon(96% 0, 100% 4%, 100% 14%, 10% 14%, 8% 10%, 22% 0);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 26vw;
   height: 35vh;
   position: absolute;
@@ -67,7 +64,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 
 .tri-2{
   clip-path: polygon(100% 0, 100% 40%, 89% 54%, 18% 54%, 16% 51%, 53% 0);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;  
   width: 38vw;
   height: 43vh;
   position: absolute;
@@ -79,7 +76,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 
 .tri-3{
   clip-path: polygon(93% 0, 96% 7%, 45% 95%, 13% 95%, 0 75%, 0 0);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 27vw;
   transform: translate(-50%, 50%);
   height: 25vh;
@@ -90,7 +87,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   z-index: 1;
 }
 .hori-line{
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 57vw;
   height: 1vh;
   left: 0%;
@@ -111,7 +108,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-1{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: -12.2%;
@@ -120,7 +117,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-2{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 0%;
@@ -129,7 +126,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-3{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 12.2%;
@@ -138,7 +135,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-4{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 24.4%;
@@ -147,7 +144,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-5{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 36.6%;
@@ -156,7 +153,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-6{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 48.8%;
@@ -165,7 +162,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-7{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 61%;
@@ -174,7 +171,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-8{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 73.2%;
@@ -183,7 +180,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
 .dash-9{
   clip-path: polygon(39.5% 0%, 56.5% 0%, 17.6% 100%, 0% 100%);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 4vw;
   height: 3.7vh;
   left: 85.4%;
@@ -204,7 +201,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 
 .tri-1-t{
   clip-path: polygon(96% 0, 100% 4%, 100% 14%, 10% 14%, 8% 10%, 22% 0);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 26vw;
   height: 35vh;
   position: absolute;
@@ -223,14 +220,14 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
   transform: translateY(-50%) translateX(-50%);
   left: 70%;
   z-index: 1;
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 38vw;
   height: 43vh;
 }
 
 .tri-3-t{
   clip-path: polygon(100% 0, 50% 34%, 47% 31%, 47% 4%, 51% 0);
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   
 
   width: 36vw;
@@ -244,7 +241,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
   
 .hori-line-t{
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 57vw;
   height: 1vh;
   left: 0%;
@@ -276,7 +273,7 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 }
   
 .outline-button{
-  background-color: #b1b2b5;
+  background-color: #9d9ea1;
   width: 5vw;
   transform: translate(-50%, -50%);
   height: 5vw;
@@ -304,4 +301,55 @@ background: radial-gradient(circle at 0% 0%, transparent 25%, rgba(0, 0, 0, 0.1)
 
 .cover-b.open {
   transform: translateY(100%);
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  left: 25.1%;
+  width: 57vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  z-index: 0;
+
+  overflow-x: auto;
+  padding: 20px;
+  white-space: nowrap;
+}
+
+.scroll-container {
+  width: 90%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content p {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  font-family: monospace;
+  color:black;
+  margin: 0;
+  padding: 20px;
+  vertical-align: top;
+  white-space: normal;
+  flex-shrink: 0;
+
+}
+.content p:first-child {
+  margin-left: 0;
+}
+
+.content p:last-child {
+  margin-right: 0;
+}
+.no-scroll {
+  overflow: hidden;
 }
