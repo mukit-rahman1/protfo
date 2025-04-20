@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
     content.addEventListener('wheel', function(e) {
       e.preventDefault(); // no more vertical scroll
 
-      content.scrollLeft -= e.deltaY; // horizontal scroll
+      content.scrollLeft += e.deltaY; // horizontal scroll
     });
 });
