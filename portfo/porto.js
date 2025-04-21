@@ -14,4 +14,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
       content.scrollLeft += e.deltaY; // horizontal scroll
     });
+
+
+    // jump bar
+    const buttons = document.querySelectorAll('.jump-bar button');
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const target = document.querySelector("." + button.dataset.target);
+        if(!target) return;
+        target.scrollIntoView({
+          behavior: 'smooth',
+          inline: 'start',
+          block: 'nearest'
+        });
+      });
+    });
 });
