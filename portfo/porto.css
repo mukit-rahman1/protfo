@@ -433,6 +433,11 @@ body {
 }
 
 .content-pg2 .project-box p{
+  text-shadow:
+  1px  1px 0 #ffffff,
+ -1px  1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+ -1px -1px 0 #ffffff;
   font-family: monospace;
   font-size: 0.8rem;
 }
@@ -452,14 +457,14 @@ body {
 }
   
 .top-row .project-box:nth-child(3){
-  background-image: url('bg.jpg');
+  background-image: url('pm.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .bottom-row .project-box:nth-child(1){
-  background-image: url('bg.jpg');
+  background-image: url('cl.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -481,12 +486,10 @@ body {
   box-sizing: border-box;
 }
 
-
 .content > div {
   background-color: #11cbac;
   border: 10px solid #9d9ea1;
   border-radius: 10px;
-
 
   text-align: left;
   display: block;
@@ -517,6 +520,29 @@ body {
 .content-pg2 h2{
   text-align: center;  
 }
+.content-pg2 h3{
+  text-shadow:
+  1px  1px 0 #ffffff,
+ -1px  1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+ -1px -1px 0 #ffffff;
+}
+
+.content-pg3 h2{
+  text-shadow:
+  1px  1px 0 #ffffff,
+ -1px  1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+ -1px -1px 0 #ffffff;
+}
+.content-pg3 h3{
+  text-shadow:
+  1px  1px 0 #ffffff,
+ -1px  1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+ -1px -1px 0 #ffffff;
+}
+
 .no-scroll {
   overflow: hidden;
 }
