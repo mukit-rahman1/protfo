@@ -6,24 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="porto.css">
 </head>
-<svg width="0" height="0" style="position: absolute;">
-  <defs>
-    <filter id="round">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
-      <feColorMatrix in="blur" mode="matrix"
-        values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 19 -9"
-        result="goo" />
-      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-    </filter>
-  </defs>
-</svg>
+
 
 <body>
-  <img src="bg.jpg" alt="" class="g-img">
-    
 
   <nav class="jump-bar">
     <button data-target="content-pg1">Home</button>
@@ -130,6 +115,7 @@
     <div class="outline-button">
       <div class="button"></div>
     </div>
+    <div class="press-label">Push Me!^^^</div>
     <div class="side-line">
       <div class="sl1"></div>
       <div class="sl2"></div>

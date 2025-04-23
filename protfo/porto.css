@@ -5,6 +5,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow: hidden;
+  background-image: url('bg.jpg');
 
 }
 
@@ -16,7 +17,7 @@ body {
   clip-path: polygon(40% 0, 63% 0, 100% 0, 100% 80%, 63% 80%, 40% 100%, 0 100%, 0 0);  
   background-color: #c1c1c1;
   width: 57vw;
-  height: 57.2vh;
+  height: 57.8vh;
   position: absolute;
   filter: grayscale(1);
   top: 0%;
@@ -256,9 +257,10 @@ body {
   position: absolute;
   top: 50%;
   left: 0%;
-  width: 50.1vw;
+  width: 51vw;
   height: 106.5vh;  
-
+  box-shadow: 0px 0px 10px -3px black;
+  z-index: 2;
 }
 
 .right-cover{
@@ -269,7 +271,8 @@ body {
   right: 0%;
   width: 17.9vw;
   height: 106.5vh;  
-
+  z-index: 2;
+  box-shadow: -3px 0px 10px -3px black;
 }
 
 .number-bottom{
@@ -305,8 +308,9 @@ body {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-
-
+.button:hover{
+  background-color: #5664c0;
+}
 .cover-t.open {
   transform: translateY(-100%);
 }
@@ -315,28 +319,17 @@ body {
   transform: translateY(100%);
 }
 
-.g-img{
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: auto;
-  width: 100vw;
-  transform: translate(-50%, -50%);
-}
-
 .jump-bar {
-  position: relative;
-  top: 0%;
-  left: 3.1%;
+  position: absolute;
+  top: 7%;
+  left: 54%;
   height: 5vh;
   width: 56vw;
   display: flex;
   justify-content: center;
   gap: 1rem;
   background: rgba(0,0,0,0.5);
+  transform: translate(-50%, -50%);
   padding: 0.5rem;
   z-index: 1;
 }
@@ -349,6 +342,10 @@ body {
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.jump-bar button:hover {
+  background: #b28315;
 }
 
 .img-style{
@@ -381,17 +378,12 @@ body {
   white-space: nowrap;
 }
 
-.content-pg1 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.content-pg1 h1 {
+.content-pg1 h1{
   font-family: 'Cool Future', monospace;
-  font-weight: bold;
-  font-size: 3rem;
-  color: black;
 }
+  
+
+
 
 .content-pg2 .projects-grid{
   display: grid;
@@ -486,6 +478,7 @@ body {
   box-sizing: border-box;
 }
 
+
 .content > div {
   background-color: #11cbac;
   border: 10px solid #9d9ea1;
@@ -542,6 +535,20 @@ body {
   1px -1px 0 #ffffff,
  -1px -1px 0 #ffffff;
 }
+
+.press-label{
+  font-family: 'Cool Future', monospace;
+  width: 14vw;
+  font-size: 2vw;
+  color: black;
+  position: absolute;
+  top: 32%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+}
+
 
 .no-scroll {
   overflow: hidden;
